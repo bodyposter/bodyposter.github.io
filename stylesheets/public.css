@@ -326,7 +326,14 @@ filter: drop-shadow(0 0 0.75rem crimson);
   z-index: 210;
   top: 21%;
   right: 5%;
+}
 
+.close_btn_blog{
+  font-size: 2vh;
+  position: fixed;
+  z-index: 210;
+  top: 21%;
+  right: 16.5%;
 }
 
 .card{
