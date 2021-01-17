@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+		<meta charset="utf-8">
+		<meta name="Autor" content="Bartłomiej Karaczyn">
+		<meta name="robots" content="all" />
+		<meta name="description" content="Tattoo">
+		<meta name="keywords" content="css">
+			<title>Body Poster Crew - Home</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="stylesheets/public.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+		<link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+		<link rel = "icon" href ="images/logo4.png" type = "image/x-icon"> 
+</head>
+<body>
+
+<header>
+
+<div class="logo_on">
+	<a class="navbar-brand" href="#" data-target="#collapseNavbar" data-toggle="collapse" onclick="myFunction()">
+    	<img class="fadeIn eight" src="images/logo4.png" height="80">
+    </a>
+</div>
+
+<script type="text/javascript">
+function myFunction() {
+	$(document).ready(function(){
+		$('.logo_on').addClass("fade-out");})
+}
+</script>
+
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-collapse collapse" style="background:rgba(1,1,1,0.5);" id="collapseNavbar">
+    <a class="navbar-brand" href="#">
+    	<img src="images/logo4.png" height="80">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">O NAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>     
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">BLOG</a>
+        </li>      
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">KONTAKT</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div class="welcome_text">
+  	<div class="row">
+  		<div class="col-sm">
+			<p class="fadeIn third" style="color: #b71c1c">BODY</p>
+		</div>
+		<div class="col-sm">
+			<p class="fadeIn fifth" style="color: #d32f2f">POSTER</p>
+		</div>  
+		<div class="col-sm">
+			<p class="fadeIn seventh" style="color: #ef5350">CREW</p>
+		</div>
+	</div>
+  </div>
+
+<div id="karuzela" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+	  <div class="carousel-inner fadeIn first">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="images/background.jpg" alt="First slide" style="max-height: 95vh; object-fit: cover;">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/background1.jpg" alt="Second slide" style="max-height: 95vh; object-fit: cover;">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/background2.jpg" alt="Third slide" style="max-height: 95vh; object-fit: cover;">
+	    </div>
+	  </div>
+
+	</div>
+</main>
+
+<footer class="footer bg-dark text-white">
+	<span class="text-muted">Copyrights: Body Poster Crew®</span>
+</footer>
+
+</body>
+</html>
