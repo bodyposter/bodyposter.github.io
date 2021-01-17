@@ -109,7 +109,12 @@ background-color: black !important;
   background-color: rgba(0,0,0,1);
   overflow: scroll;
   cursor: pointer;
+  scrollbar-color: #b71c1c rgba(0,0,0,0.8);	 
 }
+
+.content3_overlay::-webkit-scrollbar-thumb {
+  background-color: #b71c1c rgba(0,0,0,0.8);
+  }
 
 .blog_container{
   position: absolute;
