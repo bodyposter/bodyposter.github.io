@@ -1,0 +1,348 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+		<meta charset="utf-8">
+		<meta name="Autor" content="Bartłomiej Karaczyn">
+		<meta name="robots" content="all" />
+		<meta name="description" content="Tattoo">
+		<meta name="keywords" content="css">
+			<title>Body Poster Crew - Blog</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="stylesheets/public.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+		<link href='https://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet'>
+		<link href='http://fonts.googleapis.com/css?family=Comfortaa&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
+		<link rel = "icon" href ="images/logo4.png" type = "image/x-icon"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="scripts/blog.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<header>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-collapse" style="background:rgba(1,1,1,0.5);" id="collapseNavbar">
+    <a class="navbar-brand" href="#">
+    	<img src="images/logo4.png" height="80">
+    </a>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">O NAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+        </li>     
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">BLOG</a>
+        </li>      
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">KONTAKT</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+<div class="container">
+  <div class="crew_text">
+		<p class="fadeIn third" style="color: #b71c1c">BLOG</p>
+  </div>
+
+<div class="blog_container overflow-auto">
+
+<!-- Pierwszy post na głównej -->
+
+	<div class="row">
+	  <div class="col-md-12">
+		<div class="content3 transparent rounded fadeIn fifth hvr-reveal">
+		  <div class="in_content3 text-center">
+		  	
+			<h2>Nowy numer TATTOOFEST #162!</h2>
+			<hr />
+			<div class="row">
+				<div class="col-md-3 blog_img">
+					<img src="images/162.jpg" class="img-fluid shadow" alt="...">
+				</div>
+				<div class="col-md-9">
+					<p>Ubiegły rok udowodnił, że nie ma rzeczy pewnych w tym szalonym świecie. Miejmy nadzieję, iż kolejne miesiące będą okresem wchodzenia w fazę stabilizacji. Nie zapominajmy jednak, że trwa karnawał! Aby podkreślić ten iście szampański klimat pierwsze, styczniowe wydanie otwiera wywiad z Arturem Błaszczykiem. Bodypainter inspiruje się sztuką tatuażu, co daje wręcz piorunujący efekt. Zresztą - wystarczy rzut oka na okładkę! Równie nieoczywiste i zachwycające są prace Palladina i Krilla Gryadunov’a. Pierwszy artysta tworzy wzory inspirowane graffiti; z kolei pochodzący z Moskwy Krill określa swoje projekty jako metaomodernistyczne. Co to oznacza? Cóż, przeczytajcie wywiad, a wszystkiego się dowiecie!</p>
+
+					<button type="button" class="btn btn-outline-danger" onclick="art1_on()">READ MORE</button>
+
+					<hr />
+
+					<div class="row">
+					  <div class="blog_info text-center">
+						<i class="fa fa-clock-o" aria-hidden="true"></i> Styczeń 11, 2021 r
+					  </div>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<!-- Wnętrze pierwszego posta -->
+
+	<div class="content3_overlay rounded" onclick="art1_off()" id="art1">
+	  <div class="in_content3 text-center">
+		  	
+		<h2 id="art1_head">Nowy numer TATTOOFEST #162!</h2>
+		<hr />
+			<div class="row">
+				<div class="col-md-3 "></div>
+				<div class="col-md-6 blog_img" id="art1_img">
+					<img src="images/162.jpg" class="img-fluid shadow" alt="..."> 
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1 "></div>
+				<div class="col-md-10" id="art1_text">
+					<p>W dziale “Studio” lepiej poznamy ekipę “Powidoków”, zaś rozmowa z Agą Kot przeniesie nam w zupełnie inny, magiczny świat. Te dwa artykuły w noworocznym wydaniu TATTOOFEST udowadniają, że sztuka ma wiele twarzy; dlatego, aby je odkryć, warto zwrócić uwagę na te teksty. Poza tym na łamach magazynu prezentujemy również warsztat wysokich lotów w wykonaniu duńskiego artysty Christophera Henriksena, specjalizującego się w stylu japońskim. Równie zachwycające są kolorowe, kwiatowe realizmy Antoniny Rostry; lekturę tej rozmowy polecamy osobom z utęsknieniem wypatrującym cieplejszych miesięcy. Na zakończenie - gratka dla prawdziwych kociarzy! Nika Kun i jej kocie, ilustracyjne prace wywołają uśmiech na waszej twarzy. Styczniowy numer zamykamy wywiadem z tatuatorem o awangardowym podejściu do letteringu, Marco Sorgato oraz oczywiście dawką inspiracji w dziale “Ciekawe/Nadesłane”!
+					</p>
+					<p>Szczęśliwego (i spokojnego) Nowego Roku!</p>
+					<p>TATTOOFEST</p>
+					<hr />
+				</div>
+			</div>
+
+			<div class="row">
+			  <div class="blog_info text-center">
+				<i class="fa fa-clock-o" aria-hidden="true"></i> Styczeń 11, 2021 r
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Drugi post na głównej -->
+	
+	<div class="row">
+	  <div class="col-md-12">
+		<div class="content3 transparent rounded fadeIn fifth hvr-reveal">
+		  <div class="in_content3 text-center">
+		  	
+			<h2>Kazimierz "Kosa" Rychlikowski - Podsumowanie 2020 roku w branży tatuażu</h2>
+			<hr />
+			<div class="row">
+				<div class="col-md-9">
+					<p>Rok 2020 był dla ludzkości inny niż wszystkie. Światowa epidemia koronawirusa sprawiła, że wiele branż, w tym i branża tatuażu stanęła na kilka miesięcy. Poprosiliśmy o podsumowanie roku kilka osób związanych z branżą tatuażu od wielu lat. Poznajcie perspektywę Kosy - właściciela studia tatuażu Speak In Color z Wodzisławia Śląskiego.</p>
+
+					<button type="button" class="btn btn-outline-danger"  onclick="art2_on()">READ MORE</button>
+
+					<hr />
+
+					<div class="row">
+					  <div class="blog_info text-center">
+						<i class="fa fa-clock-o" aria-hidden="true"></i> Styczeń 5, 2021 r
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-3 blog_img">
+					<img src="images/art2.jpg" class="img-fluid shadow" alt="...">
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<!-- Wnętrze drugiego posta -->
+
+	<div class="content3_overlay rounded" onclick="art2_off()" id="art2">
+	  <div class="in_content3 text-center">
+		  	
+		<h2 id="art2_head">Kazimierz "Kosa" Rychlikowski - Podsumowanie 2020 roku w branży tatuażu</h2>
+		<hr />
+			<div class="row">
+				<div class="col-md-3 "></div>
+				<div class="col-md-6 blog_img" id="art2_img">
+					<img src="images/art2.jpg" class="img-fluid shadow" alt="..."> 
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1 "></div>
+				<div class="col-md-10" id="art2_text">
+		<p class="thick">Jaki z Twojej perspektywy był dla branży rok 2020?</p>
+
+		<p>Pełny niewiadomych, nieprzewidywalny, czyli taki, jakie decyzje naszego rządu, które mocno rzutowały na całą gospodarkę i dotyczyły nas. Te nielogiczne decyzje sparaliżowały każdą branżę, nie wiadomo było, kiedy będzie lockdown, jak długo, czy i na jakich warunkach będziemy pracować. Pokazał też znakomicie jak niezorganizowaną branżą jesteśmy, skoro nie  umieliśmy na szybko powołać stowarzyszenia z rzetelnych osób, które mogłyby Nas reprezentować w rozmowach z rządem, co poskutkowało tym, że branża tatuatorska otworzyła się na samym końcu.</p>
+
+		<p>Pamiętam rozmowy 15 lat temu o tym, że powinniśmy mieć jakiegoś typu stowarzyszenie czy zrzeszenie, i jak widać nawet teraz w 2021 r. po tym, co się wydarzyło nic w tym kierunku nie drgnęło. Powstał, co prawda „Apel Branży Tatuatorskiej”, ale nie mieliśmy siły przebicia. Rozmawiałem z wieloma znajomymi prowadzącymi studia i wiele osób do teraz nie ogarnęło się po marcowym lockdownie. Osoby, które mają wiedzę i doświadczenie, ten rok przeszły bez większych problemów poza stratami finansowymi i delikatnym spadkiem klientów z zagranicy, czy nawet tych z Polski, ale słyszałem o studiach, które mocno odczuły i do teraz odczuwają skutki.</p>
+
+		<p>Kolejną kwestią jest fakt, że wszystkie konwencje tatuażu zostały odwołane a wiadomo, że to one nakręcają rynek i pomagają się branży rozwinąć. Organizatorzy tych konwencji również mocno odczuli ostatni rok. Zauważyłem także mocny wzrost domowych tatuażystów, którzy mocno idą na skróty w rozwoju i w przyszłości mogą namieszać wśród tej profesjonalnej części branży.</p>
+
+		<p>Podsumowując - generalnie branża obroniła się, teraz czas na refleksje i wyciągnięcie wniosków.</p>
+
+		<p class="thick">Jaki był dla Ciebie, jako właściciela studia i artysty?</p>
+
+		<p>Będę najczęściej odnosił się do paromiesięcznego lockdownu, ponieważ to ta kwestia najmocniej Nas dotknęła, a po jego zakończeniu wróciliśmy do normalności w działaniu studia - no prawie.</p>
+
+		<p>Z perspektywy właściciela studia, traktując to jak źródło utrzymania, przez lockdown niestety każdy, kto miał zamkniętą działalność dostał po tyłku. Przez parę miesięcy nie było w ogóle przychodów, a o tarczy nie wspominam, bo przy kosztach jakie ja poniosłem to niestety, ale trzeba było dopłacać z własnej kieszeni.</p>
+
+		<p>Dodatkowo w kwietniu 2020 miałem zacząć projekt Niszovi, do którego przygotowania trwały parę lat. Miałem zacząć budowę dużego studia (300m2) wraz z barbershopem, restauracją i kawiarnią. Miałem już chętne osoby na prowadzenie tych działalności, niestety już na początku marcowego lockdownu zdecydowałem projekt ten odłożyć w czasie by sytuacja wyklarowała się. Odwoływanie ekip budowlanych, dokumenty, które straciły datę ważności itp. Było mnóstwo kosztów i pracy z tym związanych. Nie miało sensu zaczynać budowy w tak niewiadomych czasach. Na całe szczęście z projektem już ruszyliśmy i studio od paru miesięcy jest w trakcie budowy.</p>
+
+		<p>Wariujące koszty związane z środkami higieny, które w szczytowych momentach sięgały nawet 10 krotnie normalnej ceny i ich brak spowodowały, że przy tej niewiadomej za te rzeczy trzeba było zapłacić takie ceny, by po otwarciu ich nie zabrakło. l sporo dały do myślenia, jak to będzie, jak już wystartujemy przy takich kosztach i czy to się jakoś ustabilizuje. Na szczęście w miarę ustabilizowało, choć koszty są znacznie bardziej odczuwalne.</p>
+
+		<p>Pomimo lockdownu, cały czas była praca związana z managementem studia, jak odpisywanie na maile, przenoszenie terminów, posty na media, ciągły kontakt z naszymi klientami, przygotowywanie projektów na tatuaże wcześniej - by w momencie startu nadrobić trochę pracy i być w ogóle ready na ten moment. Więc codziennie było z 2-3 h pracy. Jeżeli ktoś mnie zna to wie, że mocno stąpam po ziemi, wszystko analizuje, zawsze pracuje z paromiesięcznym wyprzedzeniem w decyzjach, więc, pomimo tych negatywnych aspektów, o same studio się nie bałem, bo plan rozwoju i działań pozwolił nam na spokojnie przejść przez ten etap. A jak studio ruszyło to dzięki naszym wcześniejszym przygotowaniom nadrobiliśmy sporo zaległej pracy i do teraz działamy na pełnych obrotach.</p>
+
+		<p>To te negatywne aspekty lockdownu, a z pozytywnych to miałem więcej czasu by przeprojektować w całości działanie studia. Podjąć działania, na które nie miałem wcześniej czasu, a czekały w kolejce. Podejmując kluczowe decyzje wtedy, na przestrzeni tych paru miesięcy przyniosły pozytywne efekty. Więc czas ten wykorzystałem bardzo efektywnie, nie miałbym takiej możliwości przy normalnej pracy studia.</p>
+
+		<p>Ze strony artysty i tego, że bardzo lubię sam czas spędzony na projektowaniu i tatuowaniu, to z tej pierwszej formy, aż tak mocno nie zrezygnowałem, ponieważ nadrobiłem projekt na dwa miesiące do przodu oraz miałem trochę czasu na realizację paru rzeczy, jakie miałem w głowie. Z samego procesu tatuowania wiadomo, że trzeba było zrezygnować podczas lockdownu, a tego brakowało.</p>
+
+		<p>Prywatnie, jako pracoholik, miałem więcej czasu by spędzić go z rodziną - to był najlepszy aspekt całej tej sytuacji.</p>
+
+		<p class="thick">Jak widzisz dla siebie i dla branży rok 2021?</p>
+
+		<p>Bardzo pozytywnie, to będzie dla mnie przełomowy rok. Booking, jaki mamy w studio opiewa na 4 do 9 miesięcy u całej ekipy - więc w tej kwestii nic się nie zmieniło. Mamy wspaniałych klientów, którzy mocno nas wspierali w tych ciężkich czasach, więc nie zostawili nas i teraz.</p>
+
+		<p>Nowe studio z projektu Niszovi się buduje, jak wszystko pójdzie dobrze to w 2022 r. wystartujemy w powiększonym składzie z niesamowitymi perspektywami. Nabyliśmy również dla „zINKnij” nowoczesny laser picosekundowy i rozszerzyliśmy mocno ofertę o usuwanie tatuaży kolorowych, a jego efektywność daje nam pole do popisu przy coverach. Wszystko układa się bardzo dobrze.</p>
+
+		<p>Jeżeli chodzi o branżę, to myślę, że troszeczkę będzie ciężej. Jak mówiłem wcześniej - wiele osób zaczęło tatuować po domach, szczególnie jest to odczuwalne w większych miastach. Choć ja jestem optymistą, z tego, co było, trzeba wyciągnąć wnioski i nie popełniać dalej takich samych błędów. Z informacji jakich dostaliśmy, konwencje się odbędą, a każdy z nas potrzebuje tego, brakuje nam spotkań z przyjaciółmi, wspólnego tatuowania i trochę resetu.</p>
+
+		<p class="thick">Dziękuję serdecznie za możliwość wypowiedzi, Trzymajcie się ciepło, Piona!</p>
+					<hr />
+				</div>
+			</div>
+
+			<div class="row">
+			  <div class="blog_info text-center">
+				<i class="fa fa-clock-o" aria-hidden="true"></i> Styczeń 11, 2021 r
+			  </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Trzeci post na głównej -->
+
+	<div class="row">
+	  <div class="col-md-12">
+		<div class="content3 transparent rounded fadeIn fifth hvr-reveal">
+		  <div class="in_content3 text-center">
+		  	
+			<h2>FELIETON: Seminarium tatuażu - czemu warto się szkolić i rozwijać</h2>
+			<hr />
+			<div class="row">
+				<div class="col-md-3 blog_img">
+					<img src="images/art3.jpg" class="img-fluid shadow" alt="...">
+				</div>
+				<div class="col-md-9">
+					<p>Nazywam się Jacek Gałan, zwany i znany w branży tatuatorskiej i w social media, jako "Jack Galan". Chciałbym się z Wami podzielić swoimi przemyśleniami na temat różnego rodzaju szkoleń tatuatorskich. Na samym wstępie chciałbym Wam bardzo podziękować za uwagę i mam nadzieję ze dotrwacie do końca tego artykułu... A będzie on poważny, śmieszny, będę obrażał oraz chwalił. Miejmy sami do siebie dystans, by móc go przekazać innym.</p>
+
+					<button type="button" class="btn btn-outline-danger" onclick="art3_on()">READ MORE</button>
+
+					<hr />
+
+					<div class="row">
+					  <div class="blog_info text-center">
+						<i class="fa fa-clock-o" aria-hidden="true"></i> Grudzień 17, 2020 r
+					  </div>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<!-- Wnętrze trzeciego posta -->
+
+	<div class="content3_overlay rounded" onclick="art3_off()" id="art3">
+	  <div class="in_content3 text-center">
+		  	
+		<h2 id="art3_head">FELIETON: Seminarium tatuażu - czemu warto się szkolić i rozwijać</h2>
+		<hr />
+			<div class="row">
+				<div class="col-md-3 "></div>
+				<div class="col-md-6 blog_img" id="art3_img">
+					<img src="images/art3.jpg" class="img-fluid shadow" alt="..."> 
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1 "></div>
+				<div class="col-md-10" id="art3_text">
+		<p class="thick">Witam Was serdecznie!</p>
+
+		<p>Nazywam się Jacek Gałan, zwany i znany w branży tatuatorskiej i w social media, jako "Jack Galan". Chciałbym się z Wami podzielić swoimi przemyśleniami na temat różnego rodzaju szkoleń tatuatorskich. Na samym wstępie chciałbym Wam bardzo podziękować za uwagę i mam nadzieję ze dotrwacie do końca tego artykułu... A będzie on poważny, śmieszny, będę obrażał oraz chwalił. Miejmy sami do siebie dystans, by móc go przekazać innym.</p>
+
+		<p>Jak każdy widzi branża tatuażu na pograniczu ostatnich 20 lat bardzo nam się dynamicznie rozwinęła. Ja sam związany z nią jestem od 15 lat (jak ten czas leci). Zawodowo jednak, profesjonalną pracą w studiu, mam styczność od 2011 roku. Gdy zaczynałem swoją przygodę z tatuażami nie było czegoś takiego jak seminaria. Nie było filmików na YouTube czy Guest Spotów, na których można byłoby się wiele nauczyć. Wiele osób było zdanych na łaskę własnego nauczyciela lub jak w moim przypadku na własną kreatywność i samodoskonalenie technik tatuowania, o których nie miałem zielonego pojęcia...</p>
+
+		<p>Dziś zdaje sobie sprawę, że mogłem wtedy pójść do lokalnego studia, tego z renomą, z dużym banerem, którego nazwę znał każdy w regionie - bo przecież takich miejsc nie było za wiele. Nauczyliby mnie tam sztuki tatuażu, a przy okazji wszystkich złych ówczesnych nawyków pracy. Dziś na pewno bym był dużo bardziej doświadczonym tatuażystą przynajmniej z punktu widzenia stażu.  Ja jednak wybrałem inną, dłuższą i zdecydowanie trudniejszą drogę, ale pozwalającą na kreatywne myślenie oraz logistyczne podejście do całego etapu tworzenia. Dzięki temu przetestowałem wszelkie mi dziś znane techniki, które wiele lat później okazały się czynnie używane w branży. Zajęło mi trochę czasu zanim pojąłem, o co w tym wszystkich chodzi, jak głęboko wbijać igłę itd.</p>
+
+		<p>W przeciągu pierwszego roku, gdy już miałem "kompletny" sprzęt do tatuowania, wykonałem może 15 tatuaży! Gdy trafiło się dwóch klientów w miesiącu, a było to mega rzadko to nie wiedziałem, co zrobić z radości... Dziś mamy młode talenty w studiach, które narzekają, że mają tylko trzech klientów w tygodniu.  Ja wiem, że ta nasza branża się rozrosła. Tatuaże stały się modne, a z modą pojawiły się masy tatuażystów, bo bycie dziś tatuażystą to jest szpan. Dziwnie postrzegana sława wyrażana ilością followersów na Instagramie. Pewnie! Czemu nie! Jeżeli uważasz, że to jest dla Ciebie najważniejsze to rób, co kochasz. Jeżeli jeszcze łączysz to z własnym „JA“ tworząc unikatowy styl, własny charakter oddany na skórze w odzwierciedleniu graficznym to mega szacun! Bo takich właśnie ludzi tutaj brakuje! Brakuje dziś ludzi z pasją, brakuje ludzi z pomysłem.</p>
+
+		<p class="thick">Każdy kopiuje, jeden od drugiego...</p>
+
+		<p>Czy ja robiłem kopie? Samych tattoo, czy gotowych wzorów nie. Gdy robisz przełożenie prawdziwego obrazu w stosunku 1: 1, opisując przy tym autora i za jego pozwoleniem, nie jesteś pseudo tatuatorem, który kradnie grafiki z Internetu. Moim zdaniem to oddanie hołdu takiemu artyście. A kto z nas nie używał do projektów referencji z neta? Mogę się założyć, że znajdę w swoim i Waszym portfolio tą samą referencję nieśmiertelnej czaszki. Pracując na fotografiach w pewnym momencie okazuje się, że doszliśmy do ściany swojej twórczości. Robimy wiele, robimy to z detalem, ale co dalej? Gdzie jest ten „mój" tatuaż? Scrollując Instagrama, co rusz powielają mi się te same motywy w różnych kompozycjach. Pytanie czy zdajemy sobie z tego sprawę i czy o taki właśnie efekt nam chodziło? Czy już jest to nasz limit?</p>
+
+		<p>Ja się skłaniam ku temu by iść o krok dalej. Tworzę własną wersje tatuażu na podstawie zajawy, jaką mam od lat w głowie, a jest nią wręcz psycho faza na STAR WARS. Gdzie mnie to zaprowadziło? Aż do samej wytwórni LUCASFILM LTD. Uzyskałem, jako jedyny w Polsce i bodajże, jako czternasta osoba w Europie pełnoprawną licencję „Lucasfilm LTD Tattoo Artist”, która daje mi pełne wsparcie w działalności artystycznej. Osiągnąłem to ciężką pracą i poświęceniem dziesiątek godzin nad jednym projektem. Tak dziesiątek! Bo taki projekt nie powstaje w jeden wieczór. Czasem po prostu czegoś brakuje i tworzę przez dwa tygodnie, aż stwierdzę, że to jest to! Wiele osób jednak odbiera całą ciężką prace, której nie widzą na zasadzie „o kolejne star warsy“, mówiąc często, że robię „gotowce z Internetu“.  Ja wiem ile wsadzam w to serca i czasu. Wiem, co robię unikatowego, a co nie, gdyż sam nad tym siedzę. Łatwo oceniać kolejny tatuaż Darth Vadera, ale zrobić te samą postać dziesięć razy, tak by była oryginalna i jedyna w swoim rodzaju to już inna para kaloszy. Jest to wyzwanie dla samego siebie, wymuszenie kreatywności i wyobraźni.</p>
+
+		<p class="thick">Jaki sens ma seminarium?</p>
+
+		<p>Zapewne zastanawiacie, czemu o tym wszystkim pisze i jaki sens ma seminarium, które organizuje? Nie mam na celu autopromocji, a raczej zobrazowanie Wam mojego doświadczenia i toku myślenia. Chciałbym Wam przekazać pewne wartości, o których wielu zapomina lub nie dopuszcza do siebie. Chciałbym Was skłonić do zastanowienia się, po co to robicie i w jakim miejscu swojej artystycznej drogi teraz jesteście i jakie tatuaże robicie?</p>
+
+		<p>Podczas wiosennego lockdownu, wykorzystując cały ogrom wolnego czasu, postanowiłem zabrać się ostro do pracy i stworzyć cały plan tzw. szkoleń pod nazwą „Seminaria Tatuażu“.  Długo zastanawiałem się, jakie zagadnienia trzeba poruszyć, co jest niezbędne by takie szkolenie było wartościowe.  Co wpłynęło na mój rozwój? Co go napędzało oraz jaka wiedza była najpotrzebniejsza by osiągnąć obecny poziom?Gdy kiedyś, po 8-9 tatuowania lat ktoś pytał mnie, dlaczego nie jeżdżę na konwencje tatuażu, odpowiadałem, że nie czuję się na siłach, że to jeszcze nie ten poziom. Zapewne bym się wiele nauczył jednak wolałem siedzieć we własnych czterech kątach skupiony na robieniu progresu. Ale to właśnie te samozaparcie nad chęcią rozwoju poprowadziło mnie dalej na międzynarodowe konwencje, gdzie zdobywałem wiele nagród u boku moich idoli. </p>
+
+		<p>Dziś konwencje są inne niż kiedyś. Dziś nagroda zdobyta na konwencji nie ma takiego prestiżu jak w przeszłości. Wraz z całą erą nowych tatuatorów klimat tych imprez się zmienił. Nadeszły zmiany. Trzeba by było dostosować te imprezy do nich. Zmieniło się również podejście do nauki. Chciałbym Was uświadomić, że bycie praktykantem w studiu to nie ujma. Nie jest hańbą sprzątanie czy układanie stanowiska dla innego tatuatora. Bo to właśnie od tego zaczyna się nauka. Krok po kroku, etap po etapie. Potem nauczycie się jak przyjąć klienta. Bo to jest ważne. Tu nie ma miejsca na kaprysy, że takiego "gówna" nie będziecie robić... Litości ludzie. Co niektórzy z Was nie potrafią nawet sterylnie rozłożyć stanowiska a już wybrzydzacie? Dziś każdy kupuje maszynkę i zakłada profil „Artysta" na Insta, Fb, czy, modnym dziś dla młodego pokolenia, TikTok'u. Zakodujcie sobie, że obsługa interesanta, tudzież klienta, jest kluczową rolą i od tego zależy czy zrobicie w ogóle, jakikolwiek tatuaż. Następnie karty zdrowia, wywiad z klientem - to też wszystko jest niezbędne by cokolwiek zacząć. Jak już to mamy opanowane to możemy zacząć uczyć się sprzątać studio i stanowisko! Bo dopiero, gdy jest przeprowadzona sanityzacja pomieszczenia i dezynfekcja sprzętu, to możemy cokolwiek działać z rozkładaniem stanowiska. Sprzęt oraz stanowisko ma swoje kroki, kolejności i trzeba tego przestrzegać a gdzie się tego nauczycie? W domu? Ucząc się złych nawyków? Dopiero po przeprowadzeniu należycie tych czynności i przygotowaniu wszystkiego w 100% sterylnie możemy myśleć, o jakiejkolwiek pracy na modelu, nie na kliencie... Bo widzę często, że praktykanci robią klientów w studiu. Wciskacie tym wszystkim osobom, że będą miały zajebistą dziarę za małą kasę?! Nie jest Wam wstyd? Trzeba mieć naprawdę tupet by tak traktować klientów. Później się każdy dziwi, że tyle osób na covery przychodzi. Jeżeli praktykant robi już na prawdziwej osobie i ma styczność ze skórą, żywą istotą zwaną człowiekiem, to musi to być model świadomy do kogo przyszedł i jaki efekt finalny może z tego wyjść. Z doświadczenia wiem, że nie jest wcale ciężko znaleźć modela na taką naukę. Wystarczy punkt pierwszy, czyli podejście do klienta. Powiesz mu prawdę i go nie oszukasz to wam zaufa. Często sam chętnie dołoży własną cegiełkę, by ktoś mógł się uczyć.</p>
+
+		<p>Seminarium – jest jedną z podstawowych metod nauczania w szkolnictwie. Podobnie jak konwersatorium, przy czym, w porównaniu z konwersatorium, udział aktywności własnej kursanta jest większy. Przeciwnie do wykładu, seminarium jest uważane za dość trudną metodę nauczania zarówno dla prowadzącego zajęcia, jak i dla kursantów. Jest to metoda przewidziana raczej dla najbardziej zaawansowanych kursantów, wymagająca od nich posiadania już wcześniej pewnej wiedzy w zakresie tatuażu (inaczej nie byliby w stanie aktywnie uczestniczyć w dyskusjach, ani stworzyć tatuażu). Seminarium, przeciwnie do biernego wysłuchiwania wiedzy na wykładzie, pozwala nie tylko na zapoznanie się z nową wiedzą, ale utrwalenie tej już posiadanej. Nauczenie się umiejętności argumentowania w dyskusji, uzasadniania własnego stanowiska itd. Seminarium jest formą doskonalenia zawodowego, czyli podnoszenia własnych kwalifikacji. Najprościej mówiąc poprawy jakości waszych tatuaży! Ale co jest najważniejsze jest to dla osób już tatuujących, nie dla osób, które chciałyby zacząć przygodę z tatuażem. Jeżeli nie znasz podstaw to nie opanujesz programu... Stwierdzisz, że on, czy ona, "ch..j tam wie", że sam to lepiej zrobisz. By czerpać wiedzę wymagana jest podstawa! Tak zawsze było i będzie!</p>
+
+		<p class="thick">Pseudo szkolenia</p>
+
+		<p>Jest jednak jeszcze jedna sprawa, która mnie przeraża. Poziom niektórych pseudo szkoleń! Osoby nazywające się szkoleniowcami potrafią mieć zaledwie rok doświadczenia... Ja bym nawet tego nie nazwał doświadczeniem... Bo rok to mogą być na praktykach w studiu... Przejrzyjcie na oczy ludzie i zacznijcie weryfikować, kto Was będzie szkolił. Ja wiem, że czasem termin i cena przyciąga, że są fajne reklamy i śmieszne slogany przyciągające uwagę, ale pamiętajcie, że nie idziecie tam się pośmiać czy poczytać tweety na telefonie tylko się czegoś nauczyć i to za WASZE pieniądze! Wyciągnijcie z tego lekcję i wykorzystajcie tę kasę mądrze. Jak nie na płatne profesjonalne seminaria to na zaplecze finansowe, by móc pozwolić sobie na praktykę w profesjonalnym studiu.</p>
+
+		<p>Ostatnim czasem branża Beauty mocno wkracza w nasz rynek. Miałem przyjemność, choć mnie oczy szczypią jak widzę takie rzeczy, widzieć grupę młodych osób wywalających kupę kasy na szkolenie z tatuażu minimalistycznego, które było prowadzone przez lingeristkę z rocznym doświadczeniem. Czytaj ZEROWYM DOŚWIADCZENIEM w profesjonalnym tatuażu. Serio...?! Naprawdę nie jest wam ku#$wa wstyd brać za to pieniądze? Jest mnóstwo młodych, których łatwo zmanipulować, nabić w przysłowiową butelkę. Ale jeżeli z takim podejściem wchodzicie w szkolenia opisując wydarzenie, jako „profesjonalne“ to współczuje waszym kursantom. Naprawdę uważam, że aby uczyć trzeba samemu mieć doświadczenie. Ja się zabierałem do tego 15 lat i nadal mam obawy. Czy to ten moment? Czy ludzie będą chcieli uzyskać jakąś wiedzę ode mnie? Czy okaże się ona wartościowa?</p>
+
+		<p class="thick">Liczy się tylko kasa?</p>
+
+		<p>Ludzie zaczynają robić tatuaże dla kasy, zaczynają organizować konwencje dla kasy, a teraz zaczynają organizować szkolenia dla kasy. Oj zrobiło się niesympatycznie. Poszło kilka brzydkich słów i sformułowań. Wsadzam kij w mrowisko, aby skłonić Was do myślenia i podejmowania ŚWIADOMYCH decyzji. Jest u nas w Polsce masa świetnych artystów, którzy również prowadzą seminaria, szkolenia czy warsztaty. Sam obecnie jestem umówiony z Tomaszem „TOFI“ Torfińskim na warsztaty z modelowania 3D w Zbrush. Nie ma w tym nic złego. Nie umiem, więc się uczę. Korzystam z tego, co mogę otrzymać od innych. Taką właśnie pomoc mam od Tomka. Od siebie nadal oczekuję więcej i więcej, to się samo nakręca i nie daje czasem spać. Wystarczy włączyć myślenie, napisać, pogadać i znaleźć wspólny plan. Takich osób, które dzielą się swoim bogatym doświadczeniem mamy o wiele więcej! Wystarczy się tylko rozejrzeć. Widzieliśmy już szkolenia realistyczne w tematyce zwierząt w tatuażu czarnobiałym zorganizowane przez Jarka Goraja w Łodzi. W grudniu "Smyku" działa z kolorem [SPRAWDŹ TU]. Ja organizuję na luty 2021. Wystarczą chęci, każdy ma swój własny sposób na stworzenie seminarium, stworzenie warsztatów czy szkolenia. Każdy z nas ma inny plan, inne przemyślenia oraz poglądy, lecz jedna najważniejsza rzecz, jaka łączy te wszystkie szkolenia to DOŚWIADCZENIE. Pamiętajcie o tym, gdy następnym razem zdecydujecie się wybrać na jakiś event z ulotki w sieci.</p>
+
+		<p class="thick">Autor: Jack Galan</p>
+					<hr />
+				</div>
+			</div>
+
+			<div class="row">
+			  <div class="blog_info text-center">
+				<i class="fa fa-clock-o" aria-hidden="true"></i> Styczeń 11, 2021 r
+			  </div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div>
+
+<div id="karuzela" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+	  <div class="carousel-inner fadeIn first">
+	    <div class="carousel-item active">
+	      <img class="d-block w-100" src="images/background4.jpg" alt="First slide" style="max-height: 95vh; object-fit: cover;">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/background5.jpg" alt="Second slide" style="max-height: 95vh; object-fit: cover;">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/background6.jpg" alt="Third slide" style="max-height: 95vh; object-fit: cover;">
+	    </div>
+	  </div>
+
+	</div>
+</main>
+
+<footer class="footer bg-dark text-white">
+	<span class="text-muted">Copyrights: Body Poster Crew®</span>
+</footer>
+
+</body>
+</html>
